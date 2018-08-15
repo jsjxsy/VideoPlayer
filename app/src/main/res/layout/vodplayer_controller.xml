@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:alpha="0.5"
+	android:background="#000000">
+
+	<TextView android:id="@+id/vodplayer_movie_title"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="[正在播放：]" />
+
+	<RelativeLayout android:orientation="vertical"
+		android:layout_width="match_parent" android:layout_height="wrap_content">
+
+		<RelativeLayout 
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/vodplayer_seekbar_line" 
+			android:orientation="horizontal"
+			android:layout_width="match_parent" 
+			android:layout_height="wrap_content">
+			<TextView 
+				android:id="@+id/vodplayer_backward"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:text="@string/vodplayer_empty_triangle"
+				android:layout_alignParentLeft="true" />
+			<TextView 
+				android:id="@+id/vodplayer_forward"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:text="@string/vodplayer_empty_triangle"
+				android:layout_alignParentRight="true" />
+			<SeekBar 
+				android:id="@+id/vodplayer_seek_bar"
+				android:layout_width="match_parent" 
+				android:layout_height="wrap_content"
+				android:layout_toRightOf="@id/vodplayer_backward"
+				android:layout_toLeftOf="@id/vodplayer_forward" />
+		</RelativeLayout>
+
+		<TextView 
+			android:id="@+id/vodplayer_time_label_total"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="00:00:00" android:layout_below="@id/vodplayer_seekbar_line"
+			android:layout_alignParentRight="true" />
+
+		<TextView android:id="@+id/vodplayer_time_label_curr"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="00:00:00" />
+
+	</RelativeLayout>
+
+	<LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_alignParentRight="true"
+		android:layout_gravity="right">
+		<Button 
+			android:id="@+id/vodplayer_pip_button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="PIP" />
+		<TextView android:id="@+id/vodplayer_pip_label"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="PIP" />
+		<Button android:id="@+id/vodplayer_option_button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Option" />
+		<TextView android:id="@+id/vodplayer_option_label"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Option" />
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+include ':app', ':support', ':filemanagerlib', ':imagelib',
+        ':ijkplayer',
+        'networklib',
+        'imageloaderlib',
+        'analyticslib',
+        'library',
+        'SlideBack'
+//'SmallVideoLib2'
+

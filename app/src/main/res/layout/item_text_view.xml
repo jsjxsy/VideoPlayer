@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="@drawable/button_home_cell"
+    tools:context=".activity.HomeActivity">
+
+    <TextView
+        android:id="@+id/id_text_item_episodes"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:contentDescription="@null"
+        android:text="第一集"
+        android:textColor="@color/color_value_3"
+        android:textSize="16sp" />
+</FrameLayout>

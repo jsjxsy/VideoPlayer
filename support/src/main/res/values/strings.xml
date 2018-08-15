@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="register">注册</string>
+    <string name="app_name">AlibabaGraph</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="switch_on">On</string>
+    <string name="switch_off">Off</string>
+
+    <string name="str_loading">Loading&#8230;</string>
+
+    <string name="gravity_left">left</string>
+    <string name="gravity_center">center</string>
+    <string name="gravity_right">right</string>
+
+    <string name="permission_title">提示</string>
+    <string name="permission_msg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="settings">设置</string>
+    <string name="cancel">取消</string>
+
+    <string name="reload_data">重新加载</string>
+    <string name="messenger_public_noitem">No Items</string>
+
+    <string name="str_title_image_picker">Select Image</string>
+    <string name="str_title_images_picker">Select Images</string>
+    <string name="str_attach_maximum_tips">Max. 4 images</string>
+    <string name="str_image_choose" formatted="false">Done (%s/%s)</string>
+    <string name="str_attach_picked_maximum_tips">Max. %s image</string>
+    <string name="str_attach_picked_maximums_tips">Max. %s images</string>
+
+    <string name="str_date_time_set">Set</string>
+
+    <string name="str_date_picker_dialog_title">Set Date</string>
+
+    <string name="str_location_unaviable_notice">"Turn on \"Location Services\" and allow \"Alibaba\" to get the country you are in."</string>
+
+    <string name="str_warning">Warning</string>
+
+    <string name="str_certificate_not_trusted">Your URL security credentials are not trusted, do you
+        continue?
+    </string>
+
+    <string name="str_mail_sender_send_non_email_notice">Please input email address</string>
+    <string name="str_mail_sender_send_choose_title">Please choose a mail client</string>
+
+    <string name="common_date_format">"MM/dd/yy"</string>
+    <string name="common_ok">OK</string>
+</resources>

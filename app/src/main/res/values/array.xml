@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--<string-array name="vodplayer_setting_level1_movie">-->
+		<!--<item>"画质设置"</item>-->
+		<!--<item>"声效设置"</item>-->
+		<!--<item>"收藏"</item>-->
+		<!--<item>"关联影片"</item>-->
+		<!--<item>"跳至指定时间"</item>-->
+		<!--<item>"断点续播设置"</item>-->
+	<!--</string-array>-->
+	<!---->
+	<!---->
+	<!--<string-array name="vodplayer_setting_level1_tv">-->
+		<!--<item>"剧集选择"</item>-->
+		<!--<item>"画质设置"</item>-->
+		<!--<item>"声效设置"</item>-->
+		<!--<item>"收藏"</item>-->
+		<!--<item>"关联影片"</item>-->
+		<!--<item>"跳至指定时间"</item>-->
+		<!--<item>"断点续播设置"</item>-->
+	<!--</string-array>-->
+	<!---->
+	<!--<string-array name="vodplayer_setting_level2_quality">-->
+		<!--<item>"标清"</item>-->
+		<!--<item>"高清"</item>-->
+		<!--<item>"超清"</item>-->
+		<!--<item>"1080P"</item>-->
+		<!--<item>"自适应"</item>-->
+	<!--</string-array>-->
+	<!---->
+	<!--<string-array name="vodplayer_setting_level2_voice">-->
+		<!--<item>"标准"</item>-->
+		<!--<item>"人声"</item>-->
+		<!--<item>"影院"</item>-->
+	<!--</string-array>-->
+	<!---->
+	<!--<string-array name="vodplayer_setting_level2_breakpoint">-->
+		<!--<item>"开启"</item>-->
+		<!--<item>"关闭"</item>-->
+	<!--</string-array>-->
+	
+</resources>

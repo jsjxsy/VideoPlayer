@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidFileManage</string>
+    <string name="count">共%1$s个文件</string>
+</resources>

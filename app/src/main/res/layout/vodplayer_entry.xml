@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TextView android:id="@+id/movie_label" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="电影" />
+	<GridView android:id="@+id/movie_grid" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:numColumns="auto_fit"
+		android:horizontalSpacing="10dp" 
+		android:columnWidth="30dp" />
+
+	<TextView android:id="@+id/teleplay_label"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="电视剧" />
+	<GridView android:id="@+id/teleplay_grid"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:numColumns="auto_fit" 
+		android:horizontalSpacing="10dp"
+		android:columnWidth="30dp" />
+
+	<TextView 
+		android:id="@+id/m3u8_stream_label"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="m3u8流媒体(一级或二级)" />
+	<GridView 
+	android:id="@+id/m3u8_stream_grid"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:numColumns="auto_fit" 
+	android:horizontalSpacing="10dp"
+	android:columnWidth="30dp" />
+</LinearLayout>

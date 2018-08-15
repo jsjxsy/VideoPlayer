@@ -1,0 +1,84 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
+apply plugin: 'packer'
+android {
+    signingConfigs {
+        config {
+            keyAlias 'ijkplayer'
+            keyPassword 'admin1234'
+            storeFile file('ijkplayer.jks')
+            storePassword 'admin1234'
+        }
+    }
+
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.xsy.android.videoplayer"
+        minSdkVersion 14
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+
+        renderscriptTargetApi 25
+        renderscriptSupportModeEnabled true
+
+        multiDexEnabled true
+
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    buildTypes {
+        release {
+            // 开启混淆
+            minifyEnabled true
+            // 开启ZipAlign优化
+            zipAlignEnabled true
+            // 移除无用的resource文件
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+    packer {
+        // 是否检查Gradle配置中的signingConfig，默认不检查
+        checkSigningConfig = true
+        // 是否检查Gradle配置中的zipAlignEnabled，默认不检查
+        checkZipAlign = true
+        // 指定渠道打包输出文件名格式
+        //包名-渠道名-正式环境（release）-版本名称-版本号-最终APK文件的MD5哈希值
+        archiveNameFormat = '${appPkg}-${flavorName}-${buildType}-v${versionName}-${versionCode}-${fileMD5}'
+        // 指定渠道打包输出目录
+        archiveOutput = file(new File(project.rootProject.buildDir.path, "easyto_apks"))
+        /* // 指定渠道打包需要修改的AndroidManifest文件项
+         manifestMatcher = ['UMENG_CHANNEL', 'Promotion_Market']*/
+        // 指定是否使用build版本号自增
+        buildNumberAuto = true
+        // 指定使用版本号自增的buildType，默认是全部
+        buildNumberTypeMatcher = ['release', 'beta']
+    }
+    dexOptions {
+        incremental true
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':ijkplayer')
+    compile 'com.google.guava:guava:18.0'
+    compile project(':support')
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    compile 'com.alibaba:fastjson:1.1.62.android'
+    compile 'com.yarolegovich:discrete-scrollview:1.2.0'
+    compile project(':filemanagerlib')
+    compile 'com.mcxiaoke.gradle:packer-helper:1.0.7'
+    //multidex
+    compile 'com.android.support:multidex:1.0.1'
+}

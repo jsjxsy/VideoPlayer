@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.xsy.android.videoplayer.activity.SplashActivity">
+
+    <view.CircleView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:backColor="#21efef"
+        custom:circleColor="#7756ffff"
+        custom:circleSum="10" />
+
+    <view.BulingBulingTextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/dummy_content"
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+
+</FrameLayout>

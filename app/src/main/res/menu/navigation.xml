@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_recommend"
+        android:icon="@drawable/ic_recommend"
+        android:title="@string/menu_recommend" />
+
+    <item
+        android:id="@+id/navigation_record_video"
+        android:icon="@drawable/ic_video_call_black_24dp"
+        android:title="@string/record_video" />
+
+
+    <item
+        android:id="@+id/navigation_local_video_audio"
+        android:icon="@drawable/ic_music_video_black_24dp"
+        android:title="@string/menu_local_video_audio" />
+
+    <item
+        android:id="@+id/navigation_local_image"
+        android:icon="@drawable/ic_image_black_24dp"
+        android:title="@string/menu_local_image" />
+
+    <item
+        android:id="@+id/navigation_network_image"
+        android:icon="@drawable/ic_network_image"
+        android:title="@string/menu_network_image" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/title_settings" />
+
+    <item
+        android:id="@+id/navigation_reply"
+        android:icon="@drawable/ic_reply_all_black_24dp"
+        android:title="@string/title_replay" />
+
+</menu>

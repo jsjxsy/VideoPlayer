@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.xsy.android.videoplayer.activity.MainActivity">
+
+        <TextView
+            android:id="@+id/id_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" />
+
+        <Button
+            android:id="@+id/id_button_open_video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_text_view"
+            android:layout_margin="10dp"
+            android:text="open file" />
+
+        <Button
+            android:id="@+id/id_button_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_button_open_video"
+            android:layout_margin="10dp"
+            android:text="open main" />
+
+        <Button
+            android:id="@+id/id_button_splash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_button_main"
+            android:layout_margin="10dp"
+            android:text="open splash" />
+
+        <Button
+            android:id="@+id/id_button_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_button_splash"
+            android:layout_margin="10dp"
+            android:text="open navigation" />
+
+        <Button
+            android:id="@+id/id_button_scrolling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_button_navigation"
+            android:layout_margin="10dp"
+            android:text="open scrolling" />
+
+
+        <Button
+            android:id="@+id/id_button_md_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_button_scrolling"
+            android:layout_margin="10dp"
+            android:text="open MD activity" />
+
+        <Button
+            android:id="@+id/id_button_section_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_button_md_activity"
+            android:layout_margin="10dp"
+            android:text="open section activity" />
+
+        <Button
+            android:id="@+id/id_button_float_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_button_section_activity"
+            android:layout_margin="10dp"
+            android:text="open float activity" />
+
+
+        <Button
+            android:id="@+id/id_button_background_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_button_float_activity"
+            android:layout_margin="10dp"
+            android:text="open background activity" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="119dip"
+    >
+<TextView  
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/vodplayer_setting_tvOption"
+        android:textSize="36sp"
+        android:layout_alignParentLeft="true"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textColor="@drawable/vodplayer_setting_listitem_color"
+        android:layout_marginLeft="40dip"
+        android:layout_gravity="center_vertical|center_horizontal"
+    />
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Super Player</string>
+
+    <string name="vodplayer_error_video_cannot_play">视频无法播放！</string>
+    <string name="vodplayer_error_unknown">未知错误！</string>
+    <string name="vodplayer_error_server_died">服务器错误！</string>
+    <string name="vodplayer_text_ok">确定</string>
+    <string name="vodplayer_solid_triangle">"▼▼▼"</string>
+    <string name="vodplayer_empty_triangle">"▽▽▽"</string>
+
+    <string name="vodplayer_setting_collectTitle">收藏影片</string>
+    <string name="vodplayer_setting_collectMessage">您确定要收藏该影片吗？</string>
+    <string name="vodplayer_setting_cancleCollectTitle">取消收藏影片</string>
+    <string name="vodplayer_setting_cancleCollectMessage">您确定要取消收藏该影片吗？</string>
+    <string name="vodplayer_setting_collectBtnConfirm">确定</string>
+    <string name="vodplayer_setting_collectBtnCancel">取消</string>
+
+    <string name="vodplayer_setting_retry">重试</string>
+    <string name="vodplayer_setting_cancel">取消</string>
+    <string name="vodplayer_setting_content">设定的时间超过视频长度</string>
+    <string name="vodplayer_setting_option_collection">收藏</string>
+    <string name="vodplayer_setting_option_canclecollection">取消收藏</string>
+    <string name="vodplayer_setting_display_self">自适应</string>
+
+    <string name="vodplayer_setting_number_cnNum">〇一二三四五六七八九</string>
+    <string name="vodplayer_setting_number_cnW">十百千</string>
+    <string name="vodplayer_setting_number_mW">万</string>
+    <string name="vodplayer_setting_number_mY">亿</string>
+    <string name="vodplayer_setting_number_mL">〇</string>
+    <string name="vodplayer_setting_select_di">第</string>
+    <string name="vodplayer_setting_select_ji">集</string>
+    <string name="title_activity_home">首页</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+
+    <string name="dummy_content">Super Player </string>
+    <string name="title_home">首页</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <!-- Example settings for Data & Sync -->
+
+    <!-- Example settings for Notifications -->
+
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="messenger_public_noitem">No Items</string>
+
+    <string name="common_error">No Network</string>
+
+    <string name="click_and_refresh">Refresh</string>
+
+    <string name="update_dialog_new_version_found">"Upgrade to Alibaba.com App V%s"</string>
+
+    <string name="str_cancel">Cancel</string>
+    <string name="video_player">Super Player</string>
+    <string name="movie_title">电影</string>
+    <string name="teleplay_title">电视剧</string>
+    <string name="comic_title">动漫</string>
+    <string name="variety_title">综艺</string>
+    <string name="menu_local_video_audio">本地视频／音频</string>
+    <string name="menu_local_image">本地图片</string>
+    <string name="menu_network_image">网络图片</string>
+    <string name="menu_recommend"> 推荐</string>
+    <string name="title_movie_lasted">最新</string>
+    <string name="title_movie_classic">经典</string>
+    <string name="record_video">录视频</string>
+    <string name="title_settings">设置</string>
+    <string name="title_replay">反馈</string>
+
+
+    <string name="number_episode">第%s集</string>
+    <string name="total_episode">总共%s集</string>
+    <string name="action_positive">确定</string>
+</resources>
+
+
+

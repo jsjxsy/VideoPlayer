@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="210dp"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    android:paddingTop="6dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="210dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:id="@+id/movie_poster_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/pic_orange"/>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/movie_name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        tools:text="Hello World!"/>
+
+</LinearLayout>
