@@ -53,4 +53,4 @@ MPEG，MPG，MOV，RM，VOB，ASF，MKV，F4V，TS，TP，M3U主要的功能特�
 
 6、笑话
 
-VideoPlayer/1440_2560/device-2017-09-12-135146.png
+https://github.com/jsjxsy/VideoPlayer/blob/master/1440_2560/device-2017-09-12-135329.png
