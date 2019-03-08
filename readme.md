@@ -50,7 +50,9 @@ MPEG，MPG，MOV，RM，VOB，ASF，MKV，F4V，TS，TP，M3U主要的功能特�
 实现阅读
 
 6、笑话
-
+![MacDown logo](https://github.com/jsjxsy/VideoPlayer/blob/master/1440_2560/device-2017-09-12-135146.png)
+![MacDown logo](https://github.com/jsjxsy/VideoPlayer/blob/master/1440_2560/device-2017-09-12-135226.png)
+![MacDown logo](https://github.com/jsjxsy/VideoPlayer/blob/master/1440_2560/device-2017-09-12-135248.png)
 ![MacDown logo](https://github.com/jsjxsy/VideoPlayer/blob/master/1440_2560/device-2017-09-12-135309.png)
 ![MacDown logo](https://github.com/jsjxsy/VideoPlayer/blob/master/1440_2560/device-2017-09-12-135329.png)
 
