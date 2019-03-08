@@ -1,8 +1,6 @@
 app name
 Super Player
 
-Android 唯一Appkey为：59b501b2f29d9861f0000536
-
 简介
 免费看VIP电影、电视剧、综艺、动漫
 免广告，无需等待即可享受视频
@@ -53,5 +51,7 @@ MPEG，MPG，MOV，RM，VOB，ASF，MKV，F4V，TS，TP，M3U主要的功能特�
 
 6、笑话
 
+![MacDown logo](https://github.com/jsjxsy/VideoPlayer/blob/master/1440_2560/device-2017-09-12-135309.png)
 ![MacDown logo](https://github.com/jsjxsy/VideoPlayer/blob/master/1440_2560/device-2017-09-12-135329.png)
+
 
